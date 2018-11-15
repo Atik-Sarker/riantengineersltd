@@ -1,0 +1,113 @@
+/* The custom-checkbox */
+.custom-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    height: 25px;
+    width: 25px;
+    background-color: #3c8dbc;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox:hover input ~ .checkmark {
+    background-color: #444;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* input checkbox end */
+
+
+
+
+.invalid-feedback {
+    color: red;
+}
+
+.manage-image {
+    height: 200px;
+    width: 200px;
+}
+
+.manage-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo_status {
+    height: 22px;
+    width: 63px;
+}
+.logo-status{
+    font-size: 20px;
+    color: #222;
+}
+.form-image{
+    max-height: 250px;
+    max-width: 300px;
+}
+.form-image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.user-log {
+    color: #b8c7ce !important;
+    text-align: center;
+}
+
+.service-image img{
+    height: 100%;
+    width: 100%;
+}

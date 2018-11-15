@@ -1,0 +1,123 @@
+@media screen and (min-width:992px) and (max-width: 1199px) {
+    .header-address ul li{
+        margin-right: 0px;
+    }
+    
+    .choose_image{
+        width:50%;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+    .header-address ul li{
+        margin-right: 0px;
+    }
+    .main-menu ul li a {
+	padding: 20px 5px;
+	font-size: 13px;
+    }
+    
+     .choose{
+       padding-left: 0px !important;
+    }
+
+    .choose_right p{
+        width: 70%;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width:420px) and (max-width:767px) {
+    .container {
+        width: 420px
+    }
+    
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .container {
+        width: 320px;
+    }
+
+    /*======= main  logo ======*/
+.mean-container .mean-bar {
+	
+	position: absolute;
+
+}
+    .mean-container .mean-nav ul li a.mean-expand{
+        height: 25px !important;
+        
+    }
+    
+    .mean-container .mean-nav{
+        background: #222222;
+    }
+    .mean-container .mean-nav ul li a{
+        color: #ffc527;
+    }
+    
+    .mobile-logo {
+    background: #ffc527;
+    text-align: center;
+    height: 80px;
+    }
+    .choose{
+        padding-left: 0px; 
+        padding-top: 0px;
+    }
+
+    .choose {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:620px) {
+
+   .choose_text {
+    width: 100%;
+	background: #1b1b1b url(../images/Choose-background.jpg);
+	height: 540px;
+	background-size: cover;      
+    }
+    
+    .choose_image {
+	width: 100%;
+	background: #1b1b1b url(../images/construction.jpg);
+	height: 540px;
+	background-size: cover;
+    }
+    
+    
+    .footer-copy{
+        text-align: center;
+    }
+    
+     .developed{
+        text-align: center;
+    }
+    
+    .choose{
+        padding-left: 0px; 
+        padding-top: 0px;
+    }
+   
+    
+    
+    
+    
+    
+    
+}
