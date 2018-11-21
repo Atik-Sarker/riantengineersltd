@@ -129,5 +129,5 @@
     <!-- /.content -->
 </div>
 
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection

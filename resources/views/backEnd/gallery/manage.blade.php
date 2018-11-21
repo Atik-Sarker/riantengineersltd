@@ -3,7 +3,6 @@
 @section('title', 'Dashboard')
 
 @section('content')
-{!! Toastr::message() !!}
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -11,25 +10,18 @@
         <h1 class="text-center">
             <a href="{{route('gallery.create')}}" class="btn btn-info">Add New</a>
         </h1>
-        
-
         @if (session('status'))
         <div class="alert alert-success" role="alert">
             {{ session('status') }}
         </div>
         @endif
-
     </section>
-
     <!-- Main content -->
     <section class="content">
-
         <!-- Default box -->
         <div class="box">
             <div class="box-header with-border">
-
                 <!-------------------- table start  ------------------------------->
-
                 <div class="col-md-12">
                     <div class="box">
                         <div class="box-header with-border">
@@ -99,11 +91,7 @@
                         </div>
                     </div>
                     <!-- /.box -->
-
                     <!--------------- table  end   ------------------------------>
-
-
-
                 </div>
                 <div class="box-body">
 <!--                    Start creating your amazing application!-->
@@ -120,5 +108,5 @@
     <!-- /.content -->
 </div>
 
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection

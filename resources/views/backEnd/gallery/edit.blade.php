@@ -126,7 +126,7 @@
 </div>
 <script>;
 
-    document.forms["edit-form"].elements["status"].value={{$gallery->status}};
+    document.forms["edit-form"].elements["status"].value="{{$gallery->status}}";
 </script>
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection

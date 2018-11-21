@@ -126,6 +126,6 @@
 </div>
 <!-- /.content-wrapper -->
 <script>;
-document.forms["edit-form"].elements["status"].value={{$service->status}};
+document.forms["edit-form"].elements["status"].value="{{$service->status}}";
 </script>
 @endsection

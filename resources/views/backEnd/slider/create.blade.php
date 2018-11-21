@@ -3,7 +3,6 @@
 @section('title', 'Dashboard')
 
 @section('content')
-{!! Toastr::message() !!}
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -150,5 +149,5 @@
     <!-- /.content -->
 </div>
 
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection

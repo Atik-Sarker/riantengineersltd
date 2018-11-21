@@ -3,7 +3,6 @@
 @section('title', 'Dashboard')
 
 @section('content')
-{!! Toastr::message() !!}
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -151,7 +150,7 @@
 </div>
 <script>;
 
-    document.forms["edit-form"].elements["status"].value={{$slider->status}};
+    document.forms["edit-form"].elements["status"].value="{{$slider->status}}";
 </script>
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection

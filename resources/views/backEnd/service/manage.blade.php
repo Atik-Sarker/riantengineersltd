@@ -114,9 +114,6 @@
     <!-- /.content -->
 </div>
 
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection
 
-@section('footer-script')
-{!! Toastr::message() !!}
-@endsection

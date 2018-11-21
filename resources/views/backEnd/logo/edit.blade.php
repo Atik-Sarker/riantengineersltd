@@ -125,9 +125,9 @@
     <!-- /.content -->
 </div>
 <script>
-    document.forms["edit-form"].elements["type"].value={{$logos->type}};
+    document.forms["edit-form"].elements["type"].value="{{$logos->type}}";
 
-    document.forms["edit-form"].elements["status"].value={{$logos->status}};
+    document.forms["edit-form"].elements["status"].value="{{$logos->status}}";
 </script>
-<!-- /.content-wrapper --
+<!-- /.content-wrapper -->
 @endsection
